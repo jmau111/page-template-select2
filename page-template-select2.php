@@ -36,7 +36,7 @@ function _pts_is_edit_screen( $slug ) {
 	return (bool) apply_filters( 'pts_is_edit_screen', in_array( $slug, [
 			'post.php',
 			'post-new.php'
-		], true ) && 'page' === get_post_type() && ! _pts_is_wp_version_smaller_than() );
+		], true ) && 'page' === get_post_type() && _pts_is_wp_version_smaller_than() );
 }
 
 function _pts_is_wp_version_smaller_than( $version = '5.0' ) {
