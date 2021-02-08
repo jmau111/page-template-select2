@@ -1,0 +1,13 @@
+{
+  "name": "jmau111/page-template-select2",
+  "description": "adds a select2 selector for page template instead of basic dropdown menu",
+  "minimum-stability": "stable",
+  "license": "GPL-2.0",
+  "authors": [
+    {
+      "name": "Julien Maury",
+      "email": "https://blog.julien-maury.dev/en/contact"
+    }
+  ],
+  "type": "wordpress-plugin"
+}
