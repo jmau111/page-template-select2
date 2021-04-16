@@ -22,6 +22,9 @@ now that :
 
 ## Changelog
 
+* April 2021
+* fix indentation
+
 * October 2020
 * compat WP 5 (not Gutenberg because of accessibility issue)
 
